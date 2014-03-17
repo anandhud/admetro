@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>BCT Management Team</title>
+
+  
+<link rel='stylesheet prefetch' href='css/normalize.css'>
+  <link rel='stylesheet prefetch' href='css/demo-styles.css'>
+
+    <style>
+/* 
+DEMO FOR MY BLOG POST TUTORIAL 
+How to Create Windows-8-like Animations with CSS3 and jQuery
+http://sarasoueidan.com/blog/windows8-animations
+
+*/
+
+</style>
+
+  <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="demo-wrapper">
+<!-- classnames for the pages should include: 1) type of page 2) page name-->
+  <div class="s-page random-restored-page">
+    <div class="page-content">
+    <h2 class="page-title">Hind Bahwan</h2>
+    <p>Ms Bahwan is the Founder and Chairperson of Bahwan CyberTek Group which is focused on IT, logistics and engineering projects. She is also Director of Suhail Bahwan Group, one of Oman’s premier family groups having a turnover exceeding US$ 4 billion and with diversified interests in manufacturing, construction, trading and real estates.<br>
+Ms Bahwan is involved in and has served on the Boards of a variety of public and private organizations. She is a Member of the Middle Centre Advisory Board of the London School of Economics and a Board member of the Family Business Network for GCC.
+<br>
+She had served as a Member on the Middle East Advisory Board of the Deutsche Bank and on the board of Oman’s Public Authority for Social Insurance. She had previously chaired the Oman Chapter of Young President’s Organization (YPO).
+<br>
+Ms Bahwan is a recipient of many honors including Ernst & Young's 'Oman's Young Entrepreneur of the Year 2000', Arabian Business 'e-Achiever of the Year' award from H.H. Sheikh Mohammed Bin Rasheed in 2001, 'IT Women of the Year 2002' award by UNDP, 'Global Leaders for Tomorrow' award by the World Economic Forum in 2003, 'Global Young Leader' by the World Economic Forum in 2007 and 'Woman of Power Award' by Asian Business Leadership Forum in 2011.
+<br>
+Ms Bahwan is a graduate in Computer Science, a Harvard Business School alumna and a Kellogg School of Management Executive Scholar in leadership and management.
+</p>
+    </div>
+    <div class="close-button s-close-button">x</div>   
+  </div>
+  <div class="s-page custom-page">
+    <div class="page-content">
+    <h2 class="page-title">Thank You!</h2>
+    </div>
+    <div class="close-button s-close-button">x</div>
+  </div>
+  <div class="r-page random-r-page">
+    <div class="page-content">
+    <h2 class="page-title">Hind Bahwan (Founder and Chairperson)</h2>
+      <p>Ms Bahwan is the Founder and Chairperson of Bahwan CyberTek Group which is focused on IT, logistics and engineering projects. She is also Director of Suhail Bahwan Group, one of Oman’s premier family groups having a turnover exceeding US$ 4 billion and with diversified interests in manufacturing, construction, trading and real estates.<br>
+Ms Bahwan is involved in and has served on the Boards of a variety of public and private organizations. She is a Member of the Middle Centre Advisory Board of the London School of Economics and a Board member of the Family Business Network for GCC.
+<br>
+She had served as a Member on the Middle East Advisory Board of the Deutsche Bank and on the board of Oman’s Public Authority for Social Insurance. She had previously chaired the Oman Chapter of Young President’s Organization (YPO).
+<br>
+Ms Bahwan is a recipient of many honors including Ernst & Young's 'Oman's Young Entrepreneur of the Year 2000', Arabian Business 'e-Achiever of the Year' award from H.H. Sheikh Mohammed Bin Rasheed in 2001, 'IT Women of the Year 2002' award by UNDP, 'Global Leaders for Tomorrow' award by the World Economic Forum in 2003, 'Global Young Leader' by the World Economic Forum in 2007 and 'Woman of Power Award' by Asian Business Leadership Forum in 2011.
+<br>
+Ms Bahwan is a graduate in Computer Science, a Harvard Business School alumna and a Kellogg School of Management Executive Scholar in leadership and management.
+</p>
+    </div>
+    <div class="close-button r-close-button">x</div>
+  </div>
+<!--each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open-->
+  <div class="dashboard clearfix">
+    <ul class="tiles">
+      <div class="col1 clearfix">
+        <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+          <div></div>
+          <div><p>Read More about Hind Bahwan</p></div>
+        </li>
+       <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="s-page" data-page-name ="random-restored-page">
+          <div></div>
+          <div><p>Read More about Hind Bahwan</p></div>
+        </li>
+        
+      </div>
+
+      <div class="col2 clearfix">
+      <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p></div>
+          <div><p>Read More</p></div>
+        </li>
+        <li class="tile tile-big tile-4 fig-tile" data-page-type="r-page" data-page-name="random-r-page">
+          <figure>
+            
+            <figcaption class="tile-caption caption-left">Read More</figcaption>
+          </figure>
+        </li>
+        <!--Tiles with a 3D effect should have the following structure:
+            1) a container inside the tile with class of .faces
+            2) 2 figure elements, one with class .front and the other with class .back-->
+       
+      </div>
+
+      
+    </ul>
+  </div><!--end dashboard-->
+
+</div>
+
+  <script src='js/jquery.min.js'></script>
+  <script src="js/modernizr.js"></script>
+  <script src='js/scripts.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
